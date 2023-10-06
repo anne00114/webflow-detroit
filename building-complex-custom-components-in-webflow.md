@@ -6,18 +6,6 @@ I want to walk through some examples of how to build fully customized and reusab
 
 The goal here is to illustrate Webflow's capabilities when combining visual design and code. By thinking through how to fully extract your custom logic into self-contained and reusable snippets, you can achieve a level of complexity beyond what the interface allows on its own. You'll also gain the ability to efficiently maintain, update and reuse these customized building blocks on future projects. So whether you're already proficient in Webflow or just getting started, I hope these examples provide valuable insight into leveraging both its visual and code-centric powers. Let's get started by building our first component - a collapsible accordion menu!
 
-
-
-
-
-
-
-
-
-
-
-
-
 ## Building a Collapsible Accordion
 
 ### The User Experience
@@ -88,15 +76,6 @@ accordionSections.forEach(section => {
 ```
 
 Once we have the basic structure, the next step is to extract it into a reusable Webflow snippet. This will allow us to easily drop the accordion into other pages or sites.
-
-
-
-
-
-
-
-
-
 
 
 
@@ -178,21 +157,6 @@ Now that we have the base technical implementation, the next step is connecting 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Integrating Custom Components in Webflow
 
 
@@ -240,13 +204,6 @@ function readFileMetadata(file) {
 With everything connected, we can now style the uploader block and previews however we'd like directly in Webflow.
 
 This shows how Webflow's snippet and code features let us build fully-customized interactives!
-
-
-
-
-
-
-
 
 
 
